@@ -14,8 +14,28 @@ class Phone{
         int rows, cols;
 
     public:
+       /*
+        * description: default constructor for the Phone
+        * return: default Phone
+        * precondition: none
+        * postcondition: default Phone is constructed
+        */
         Phone();
+        
+       /*
+        * description: returns the Point location of the Phone
+        * return: Point
+        * precondition: none
+        * postcondition: Point location is returned
+        */
         Point getLoc();
+        
+       /*
+        * description: draws the phone
+        * return: none
+        * precondition: none
+        * postcondition: phone is drawn to the screen
+        */
         void draw(SDL_Plotter&);
 };
 
