@@ -79,6 +79,7 @@ int main(int argc, char ** argv){
     screen.draw(game);
 
     //Actual Game /w 60 Second Timer
+    do{
     start = time(0);
     while ((!game.getQuit()) && (stop - start <= 60)){
         stop = time(0);
@@ -138,15 +139,15 @@ int main(int argc, char ** argv){
     close.draw(game);
     game.update();
 
-    do{
+    Sleep(2500);
+
         if(game.kbhit()){
             key = game.getKey();
             Sleep(50);
         }
-    }while(key != 'Q' && key != 'N');
+    }while(key != 'Q' && key == 'N');
 
-    if(key == 'Q')
-        game.getQuit();
+    game.getQuit();
 
     return 0;
 }
