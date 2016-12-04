@@ -1,0 +1,503 @@
+# depslib dependency file v1.0
+1480528832 source:h:\pokemon go project\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480528873 h:\pokemon go project\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480528958 h:\pokemon go project\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+
+1480527894 h:\pokemon go project\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480528117 h:\pokemon go project\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480527986 h:\pokemon go project\phone.h
+	"SDL_Plotter.h"
+
+1480527894 h:\pokemon go project\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480528834 source:c:\users\mario\desktop\pokemon go project (november 30th)\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480528874 c:\users\mario\desktop\pokemon go project (november 30th)\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480528960 c:\users\mario\desktop\pokemon go project (november 30th)\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+
+1480527896 c:\users\mario\desktop\pokemon go project (november 30th)\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480528118 c:\users\mario\desktop\pokemon go project (november 30th)\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480527988 c:\users\mario\desktop\pokemon go project (november 30th)\phone.h
+	"SDL_Plotter.h"
+
+1480527896 c:\users\mario\desktop\pokemon go project (november 30th)\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480547198 source:c:\users\mario\desktop\project contents\pokemon go project (november 30th)\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480528874 c:\users\mario\desktop\project contents\pokemon go project (november 30th)\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480547313 c:\users\mario\desktop\project contents\pokemon go project (november 30th)\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+
+1480527896 c:\users\mario\desktop\project contents\pokemon go project (november 30th)\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480528118 c:\users\mario\desktop\project contents\pokemon go project (november 30th)\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480527988 c:\users\mario\desktop\project contents\pokemon go project (november 30th)\phone.h
+	"SDL_Plotter.h"
+
+1480527896 c:\users\mario\desktop\project contents\pokemon go project (november 30th)\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480547198 source:c:\users\mario\desktop\project contents\pokemon go project (november 30th) - download this one\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480528874 c:\users\mario\desktop\project contents\pokemon go project (november 30th) - download this one\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480547313 c:\users\mario\desktop\project contents\pokemon go project (november 30th) - download this one\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+
+1480527896 c:\users\mario\desktop\project contents\pokemon go project (november 30th) - download this one\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480528118 c:\users\mario\desktop\project contents\pokemon go project (november 30th) - download this one\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480527988 c:\users\mario\desktop\project contents\pokemon go project (november 30th) - download this one\phone.h
+	"SDL_Plotter.h"
+
+1480527896 c:\users\mario\desktop\project contents\pokemon go project (november 30th) - download this one\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480694394 source:c:\users\mario\documents\projects\project contents\pokemon go project (november 30th) - download this one\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480528874 c:\users\mario\documents\projects\project contents\pokemon go project (november 30th) - download this one\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480618313 c:\users\mario\documents\projects\project contents\pokemon go project (november 30th) - download this one\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+
+1480527896 c:\users\mario\documents\projects\project contents\pokemon go project (november 30th) - download this one\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480528118 c:\users\mario\documents\projects\project contents\pokemon go project (november 30th) - download this one\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480527988 c:\users\mario\documents\projects\project contents\pokemon go project (november 30th) - download this one\phone.h
+	"SDL_Plotter.h"
+
+1480527896 c:\users\mario\documents\projects\project contents\pokemon go project (november 30th) - download this one\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480701469 source:c:\users\lopezma\desktop\pokemongo-master\pokemon go project (december 2nd)\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480699699 c:\users\lopezma\desktop\pokemongo-master\pokemon go project (december 2nd)\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480701260 c:\users\lopezma\desktop\pokemongo-master\pokemon go project (december 2nd)\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+	<vector>
+
+1480699699 c:\users\lopezma\desktop\pokemongo-master\pokemon go project (december 2nd)\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480699699 c:\users\lopezma\desktop\pokemongo-master\pokemon go project (december 2nd)\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480699699 c:\users\lopezma\desktop\pokemongo-master\pokemon go project (december 2nd)\phone.h
+	"SDL_Plotter.h"
+
+1480699699 c:\users\lopezma\desktop\pokemongo-master\pokemon go project (december 2nd)\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480731610 source:e:\pokemongo-master\pokemon go project (december 2nd) - booth fix\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - booth fix\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480701262 e:\pokemongo-master\pokemon go project (december 2nd) - booth fix\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+	<vector>
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - booth fix\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - booth fix\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - booth fix\phone.h
+	"SDL_Plotter.h"
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - booth fix\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480739540 source:e:\pokemongo-master\pokemon go project (december 2nd) - 0823pm edit\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - 0823pm edit\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480739658 e:\pokemongo-master\pokemon go project (december 2nd) - 0823pm edit\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+	<vector>
+
+1480739988 e:\pokemongo-master\pokemon go project (december 2nd) - 0823pm edit\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - 0823pm edit\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - 0823pm edit\phone.h
+	"SDL_Plotter.h"
+
+1480699700 e:\pokemongo-master\pokemon go project (december 2nd) - 0823pm edit\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480741980 source:e:\pokemon project files\pokemon go project (december 2nd) - 1054pm edit\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+
+1480699700 e:\pokemon project files\pokemon go project (december 2nd) - 1054pm edit\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480743452 e:\pokemon project files\pokemon go project (december 2nd) - 1054pm edit\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+	<vector>
+
+1480746206 e:\pokemon project files\pokemon go project (december 2nd) - 1054pm edit\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480746316 e:\pokemon project files\pokemon go project (december 2nd) - 1054pm edit\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480742844 e:\pokemon project files\pokemon go project (december 2nd) - 1054pm edit\phone.h
+	"SDL_Plotter.h"
+
+1480699700 e:\pokemon project files\pokemon go project (december 2nd) - 1054pm edit\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480743070 source:e:\pokemon project files\pokemon go project (december 2nd) - 1054pm edit\pokemon.cpp
+
+1480828924 source:e:\pokemon project files\do not delete - pokemon go project\main.cpp
+	"SDL_Plotter.h"
+	"Pokemon.h"
+	"Trainer.h"
+	"myTimer.h"
+	"myPoints.h"
+	"Phone.h"
+	"Background.h"
+	"Opening_Animation.h"
+	"GameOver.h"
+
+1480699700 e:\pokemon project files\do not delete - pokemon go project\sdl_plotter.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<string.h>
+	<iostream>
+	<string>
+	<string.h>
+	<map>
+
+1480823880 e:\pokemon project files\do not delete - pokemon go project\pokemon.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+	<vector>
+
+1480746206 e:\pokemon project files\do not delete - pokemon go project\trainer.h
+	"Background.h"
+	"Pokemon.h"
+	"SDL_Plotter.h"
+
+1480746316 e:\pokemon project files\do not delete - pokemon go project\background.h
+	"Pokemon.h"
+	"Trainer.h"
+	"SDL_Plotter.h"
+	<fstream>
+
+1480742844 e:\pokemon project files\do not delete - pokemon go project\phone.h
+	"SDL_Plotter.h"
+
+1480699700 e:\pokemon project files\do not delete - pokemon go project\opening_animation.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480743070 source:e:\pokemon project files\do not delete - pokemon go project\pokemon.cpp
+
+1480820696 e:\pokemon project files\do not delete - pokemon go project\gameover.h
+	"SDL_Plotter.h"
+	"Background.h"
+
+1480826356 e:\pokemon project files\do not delete - pokemon go project\mytimer.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+	<vector>
+
+1480828672 e:\pokemon project files\do not delete - pokemon go project\mypoints.h
+	"SDL_Plotter.h"
+	"Trainer.h"
+	"Background.h"
+	<string>
+	<ctime>
+	<vector>
+
