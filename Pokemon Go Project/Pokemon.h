@@ -28,14 +28,6 @@ class Pokemon{
         string pokemonName;
 
     public:
-        Pokemon();
-
-        int getCenteredLocX();
-        int getCenteredLocY();
-
-        string choosePokemon(vector<string>&);
-
-    public:
        /*
         * description: default constructor for the Pokemon
         * return: default Pokemon
