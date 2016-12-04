@@ -35,12 +35,78 @@ class Pokemon{
 
         string choosePokemon(vector<string>&);
 
+    public:
+       /*
+        * description: default constructor for the Pokemon
+        * return: default Pokemon
+        * precondition: none
+        * postcondition: default Pokemon is constructed
+        */
+        Pokemon();
+
+       /*
+        * description: provides a more centered location for the Pokemon
+        * return: int
+        * precondition: must be a location.x
+        * postcondition: returns int that better centers the Pokemon
+        */
+        int getCenteredLocX();
+
+       /*
+        * description: provides a more centered location for the Pokemon
+        * return: int
+        * precondition: must be a location.y
+        * postcondition: returns int that better centers the Pokemon
+        */
+        int getCenteredLocY();
+
+       /*
+        * description: chooses a Pokemon from a list
+        * return: string
+        * precondition: must be a Pokemon list
+        * postcondition: returns a random Pokemon
+        */
+        string choosePokemon(vector<string>&);
+
+       /*
+        * description: draws a Pokemon the screen
+        * return: none
+        * precondition: must pass in a plotter and must have a Pokemon to draw and pass in a plotter
+        * postcondition: returns int that better centers the Pokemon
+        */
         void draw(SDL_Plotter&);
+
+       /*
+        * description: picks a random location to spawn a Pokemon.
+        * return: none
+        * precondition: must have a loc.x and loc.y
+        * postcondition: gives loc.x and loc.y a new location
+        */
         void selectRandomSpawn();
+
+       /*
+        * description: spawns a new Pokemon when the previous one is caught
+        * return: none
+        * precondition: trainer must have the same location as Pokemon and pass in a plotter
+        * postcondition: a new Pokemon is spawned in a new location
+        */
         void caught(SDL_Plotter&);
+
+       /*
+        * description: erases the Pokemon
+        * return: none
+        * precondition: must have a Pokemon to erase and pass in a plotter
+        * postcondition: Pokemon gets erased
+        */
         void erase(SDL_Plotter&);
-        void move(DIR);
-        void moveToMenu(int);
+
+       /*
+        * description: moves the Pokemon to the menu
+        * return: none
+        * precondition: the Pokemon must be caught for it to be moved
+        * postcondition: Pokemon is drawn in the new location on the menu
+        */
+        void moveToMenu(SDL_Plotter&, int);
 };
 
 //Partially provided by Dr. Booth
