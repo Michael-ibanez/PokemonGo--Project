@@ -87,7 +87,7 @@
 087_Dewgong
 088_Grimer
 089_Muk
-090_Shelder
+090_Shellder
 091_Cloyster
 092_Gastly
 093_Haunter
