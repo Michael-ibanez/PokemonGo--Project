@@ -37,7 +37,7 @@
 037_Vulpix
 038_Ninetales
 039_Jigglypuff
-040_Wigglytuff
+040_Wifflytuff
 041_Zubat
 042_Golbat
 043_Oddish
@@ -127,7 +127,7 @@
 127_Pinsir
 128_Tauros
 129_Magikarp
-130_Gyardos
+130_Gyarados
 131_Lapras
 132_Ditto
 133_Eevee
