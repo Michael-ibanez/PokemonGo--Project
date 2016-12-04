@@ -23,12 +23,61 @@ class Trainer{
         int rows, cols;
 
     public:
+    
+        /*
+        * description: default constructor for the Trainer
+        * return: default Trainer
+        * precondition: none
+        * postcondition: Trainer is constructed using default values
+        */        
         Trainer();
+
+        /*
+        * description: returns the loc.x of the trainer
+        * return: int
+        * precondition: must have a loc.x
+        * postcondition: returns the int value of loc.x
+        */
         int getLocX();
+
+        /*
+        * description: returns the loc.y of the trainer
+        * return: int
+        * precondition: must have a loc.y
+        * postcondition: returns the int value of loc.y
+        */
         int getLocY();
+
+        /*
+        * description: draws a Trainer the screen
+        * return: none
+        * precondition: must pass in a plotter and have a trainer picture to draw
+        * postcondition: draws the trainer to the screen
+        */
         void draw(SDL_Plotter&);
+
+        /*
+        * description: erases the Trainer's previous position on the screen
+        * return: none
+        * precondition: must pass in a plotter
+        * postcondition: erases the trainer from the screen
+        */
         void erase(SDL_Plotter&);
+
+        /*
+        * description: moves the trainer according to the key pressed
+        * return: none
+        * precondition: must pass in a direction to move the trainer in
+        * postcondition: moves the trainer on the screen
+        */
         void move(DIR);
+
+        /*
+        * description: redraws the trainer according to the key pressed
+        * return: none
+        * precondition: must pass in a direction to redraw the trainer in
+        * postcondition: redraws the trainer on the screen
+        */
         void redrawSprite(DIR);
 };
 
