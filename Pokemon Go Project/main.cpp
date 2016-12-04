@@ -116,8 +116,8 @@ int main(int argc, char ** argv){
            abs(ash.getLocY() - poke.getCenteredLocY())  <= 30)
         {
             poke.draw(game);
-            if(abs(ash.getLocX() - poke.getCenteredLocX()) <= 10 &&
-               abs(ash.getLocY() - poke.getCenteredLocY()) <= 10)
+            if(abs(ash.getLocX() - poke.getCenteredLocX()) <= 15 &&
+               abs(ash.getLocY() - poke.getCenteredLocY()) <= 15)
             {
                 //Draw at new location
                 poke.moveToMenu(caughtCount%6);
