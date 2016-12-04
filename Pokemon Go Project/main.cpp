@@ -4,7 +4,7 @@ Authors: Mario Arturo Lopez, Michael Ibanez, Gregory Bilbrey,
 Title : Pokemon Go Group Project
 Description:
 Created:11/2/2016
-Modified:12/3/2016
+Modified:12/4/2016
 Due:12/5/2016
 Data Abstraction:
     A Plotter is opened with the pixel size 512x1235.
