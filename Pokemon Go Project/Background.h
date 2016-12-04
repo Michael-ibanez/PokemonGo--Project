@@ -34,11 +34,52 @@ class Background{
         int rows, cols;
 
     public:
+       /*
+        * description: default constructor for the Background
+        * return: default Background
+        * precondition: none
+        * postcondition: default Background is constructed
+        */
         Background();
+        
+        /*
+        * description: returns the Point location
+        * return: Point
+        * precondition: none
+        * postcondition: Point location is returned
+        */
         Point getLoc();
+        
+       /*
+        * description: returns the RED value of the pixel at row and column
+        * return: int
+        * precondition: must have a picture to draw
+        * postcondition: returns the int of the RED value
+        */
         int getR(int r, int c);
+        
+        /*
+        * description: returns the GREEN value of the pixel at row and column
+        * return: int
+        * precondition: must have a picture to draw
+        * postcondition: returns the int of the GREEN value
+        */
         int getG(int r, int c);
+        
+        /*
+        * description: returns the BLUE value of the pixel at row and column
+        * return: int
+        * precondition: must have a picture to draw
+        * postcondition: returns the int of the BLUE value
+        */
         int getB(int r, int c);
+        
+        /*
+        * description: draws the background
+        * return: none
+        * precondition: must have a background to draw and pass in a plotter
+        * postcondition: pixel is plotted to the screen
+        */
         void draw(SDL_Plotter&);
 };
 
