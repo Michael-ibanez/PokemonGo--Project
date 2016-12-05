@@ -32,39 +32,51 @@ class myTimer{
         myTimer();
 
        /*
-        * description: chooses a Pokemon from a list
+        * description: chooses a time from a list of image
         * return: string
-        * precondition: must be a Pokemon list
-        * postcondition: returns a random Pokemon
+        * precondition: must have a time
+        * postcondition: returns time to draw
         */
         string chooseTime(vector<string>&);
 
        /*
-        * description: draws a Pokemon the screen
+        * description: draws the timer on the screen
         * return: none
-        * precondition: must pass in a plotter and must have a Pokemon to draw and pass in a plotter
-        * postcondition: returns int that better centers the Pokemon
+        * precondition: must pass in a plotter
+        * postcondition: draws timer
         */
         void draw(SDL_Plotter&);
 
        /*
-        * description: spawns a new Pokemon when the previous one is caught
+        * description: holds the current time to draw
         * return: none
-        * precondition: trainer must have the same location as Pokemon and pass in a plotter
-        * postcondition: a new Pokemon is spawned in a new location
+        * precondition: none
+        * postcondition: time is passed to draw
         */
         void currentTime(SDL_Plotter&);
 
        /*
-        * description: erases the Pokemon
+        * description: erases the timer
         * return: none
-        * precondition: must have a Pokemon to erase and pass in a plotter
-        * postcondition: Pokemon gets erased
+        * precondition: must pass in a plotter to erase the pizels
+        * postcondition: timer is erased
         */
         void erase(SDL_Plotter&);
 
+        /*
+        * description: gives the current time
+        * return: int
+        * precondition: none
+        * postcondition: current time is returned
+        */
         int getTime();
 
+        /*
+        * description: sets the current time
+        * return: none
+        * precondition: none
+        * postcondition: current time is set
+        */
         void setTime(int a);
 };
 
