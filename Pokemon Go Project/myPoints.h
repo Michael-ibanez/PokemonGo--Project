@@ -24,47 +24,59 @@ class myPoints{
 
     public:
        /*
-        * description: default constructor for the Pokemon
-        * return: default Pokemon
+        * description: default constructor for the Points
+        * return: default Points
         * precondition: none
-        * postcondition: default Pokemon is constructed
+        * postcondition: default Points are constructed
         */
         myPoints();
 
        /*
-        * description: chooses a Pokemon from a list
+        * description: chooses a Points png from a list
         * return: string
-        * precondition: must be a Pokemon list
-        * postcondition: returns a random Pokemon
+        * precondition: must be a Points list
+        * postcondition: returns the Points file
         */
         string choosePoints(vector<string>&);
 
        /*
-        * description: draws a Pokemon the screen
+        * description: draws the Points to the screen
         * return: none
-        * precondition: must pass in a plotter and must have a Pokemon to draw and pass in a plotter
-        * postcondition: returns int that better centers the Pokemon
+        * precondition: must pass in a plotter and must have points to draw
+        * postcondition: draws the points to the screen
         */
         void draw(SDL_Plotter&);
 
        /*
-        * description: spawns a new Pokemon when the previous one is caught
+        * description: holds how many points the user has
         * return: none
-        * precondition: trainer must have the same location as Pokemon and pass in a plotter
-        * postcondition: a new Pokemon is spawned in a new location
+        * precondition: none
+        * postcondition: gives the current points to be drawn
         */
         void currentPoints(SDL_Plotter&);
 
        /*
-        * description: erases the Pokemon
+        * description: erases the points
         * return: none
-        * precondition: must have a Pokemon to erase and pass in a plotter
-        * postcondition: Pokemon gets erased
+        * precondition: must have a points to erase and pass in a plotter
+        * postcondition: points get erased
         */
         void erase(SDL_Plotter&);
 
+        /*
+        * description: gives the current points
+        * return: int
+        * precondition: none
+        * postcondition: current points are returned
+        */
         int getPoints();
 
+        /*
+        * description: sets the current points
+        * return: none
+        * precondition: none
+        * postcondition: current points are set
+        */
         void setPoints(int a);
 };
 
