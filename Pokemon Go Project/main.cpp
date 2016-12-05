@@ -83,7 +83,6 @@ int main(int argc, char ** argv){
     }while(key != ' ');
     game.playSound("Background.wav");
     game.update();
-    screen.draw(game);
 
     //Actual Game /w 60 Second Timer
     do{
