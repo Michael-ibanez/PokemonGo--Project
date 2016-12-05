@@ -57,6 +57,9 @@ int main(int argc, char ** argv){
     GameOver close;
     Background forest;
     Phone screen;
+          
+    game.initSound("Caught_Pokemon.wav");
+    game.initSound("Background_3.wav");
 
     int start;
     int stop;
@@ -79,7 +82,7 @@ int main(int argc, char ** argv){
             Sleep(50);
         }
     }while(key != ' ');
-
+    game.playSound("Background.wav");
     game.update();
     screen.draw(game);
 
@@ -125,6 +128,7 @@ int main(int argc, char ** argv){
                abs(ash.getLocY() - poke.getCenteredLocY()) <= 15)
             {
                 //Draw at new location
+                game.playSound("Caught_Pokemon.wav");
                 poke.moveToMenu(caughtCount%6);
                 poke.draw(game);
                 game.update();
@@ -142,6 +146,7 @@ int main(int argc, char ** argv){
     }
 
     close.draw(game);
+    game.quitSound("Caught_Pokemon.wav");
     game.update();
 
     Sleep(2500);
@@ -151,7 +156,7 @@ int main(int argc, char ** argv){
             Sleep(50);
         }
     }while(key != 'Q' && key == 'N');
-
+    game.quitSound("Background_3.wav");
     game.getQuit();
 
     return 0;
