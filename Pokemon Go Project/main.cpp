@@ -34,6 +34,7 @@ Input:
 Implementation:
 Assumptions:
     It is assumed the user will press the arrow keys to move the trainer.
+    It is assumed the user will not push other keys besides those specified
 */
 
 #include "SDL_Plotter.h"
