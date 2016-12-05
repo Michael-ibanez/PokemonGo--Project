@@ -13,9 +13,37 @@ class GameOver{
         int rows, cols;
 
     public:
+        
+        /*
+        * description: default constructor
+        * return: default GameOver picture
+        * precondition: none
+        * postcondition: GameOver is constructed
+        */
         GameOver();
+        
+        /*
+        * description: gets the location to draw the game over message
+        * return: Point
+        * precondition: none
+        * postcondition: location to draw game over message is returned
+        */
         Point getLoc();
+        
+        /*
+        * description: draws the game over sign
+        * return: none
+        * precondition: must pass in a plotter to draw the pixels
+        * postcondition: game over is drawn to the screen
+        */
         void draw(SDL_Plotter&);
+        
+        /*
+        * description: erases the game over sign 
+        * return: none
+        * precondition: must pass in a plotter to erase the pizels
+        * postcondition: game over is erased
+        */
         void erase(SDL_Plotter&);
 };
 
