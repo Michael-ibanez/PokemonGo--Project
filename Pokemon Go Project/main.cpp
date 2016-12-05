@@ -60,6 +60,7 @@ int main(int argc, char ** argv){
           
     game.initSound("Caught_Pokemon.wav");
     game.initSound("Background_3.wav");
+    game.initSound("Opening.wav");
 
     int start;
     int stop;
@@ -74,6 +75,7 @@ int main(int argc, char ** argv){
     //Opening Animation
     open.draw(game);
     game.update();
+    game.playSound("Opening.wav");
 
     //Game won't start until Space is pressed
     do{
@@ -82,6 +84,8 @@ int main(int argc, char ** argv){
             Sleep(50);
         }
     }while(key != ' ');
+    
+    game.playSound("Opening.wav");
     game.playSound("Background.wav");
     game.update();
 
