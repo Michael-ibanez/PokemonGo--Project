@@ -102,7 +102,7 @@ myPoints::myPoints(){
 }
 
 
-//Chooses random Pokemon from list
+//Chooses Points from list
 string myPoints::choosePoints(vector<string>& pointList){
     string currentIndex;
     ifstream getList("PointList");
@@ -112,7 +112,7 @@ string myPoints::choosePoints(vector<string>& pointList){
     return pointList[getPoints()];
 }
 
-//Draws Pokemon (Cuts out white corners)
+//Draws Points (cuts white corners)
 //Partially provided by Dr. Booth
 void myPoints::draw(SDL_Plotter& g){
     erase(g);
@@ -149,7 +149,7 @@ void myPoints::draw(SDL_Plotter& g){
     }
 }
 
-//Spawns a new Pokemon when current Pokemon is caught
+//Holds crurrent points
 void myPoints::currentPoints(SDL_Plotter& g){
     pointName = choosePoints(pointList);
 
@@ -166,7 +166,7 @@ void myPoints::currentPoints(SDL_Plotter& g){
     erase(g);
 }
 
-//Erases Pokemon
+//Erases Points
 //Provided by Dr. Booth
 void myPoints::erase(SDL_Plotter& g){
     for(int r = 0; r < rows; r++){
