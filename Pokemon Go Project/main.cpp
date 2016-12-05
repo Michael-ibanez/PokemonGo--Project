@@ -12,6 +12,11 @@ Data Abstraction:
     The GameOver sign is defined.
     The background is defined and constructed using its default constructor.
     The phone is defined using its default constructor.
+    The trainer is defined using its default constructor.
+    The timer is defined using its default constructor.
+    The points score is defined using its default constructor.
+    The opening animation is defined using its default constructor.
+    The 
 Output:
     The game begins with an opening animation giving credits to the projects
         creators and any outside sources
@@ -36,7 +41,7 @@ Assumptions:
 #include "Trainer.h"
 #include "myTimer.h"
 #include "myPoints.h"
-#include "Phone.h"
+#include "Phon                           
 #include "Background.h"
 #include "Opening_Animation.h"
 #include "GameOver.h"
