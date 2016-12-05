@@ -40,8 +40,7 @@ Assumptions:
 #include "Pokemon.h"
 #include "Trainer.h"
 #include "myTimer.h"
-#include "myPoints.h"
-#include "Phon                           
+#include "myPoints.h"                          
 #include "Background.h"
 #include "Opening_Animation.h"
 #include "GameOver.h"
