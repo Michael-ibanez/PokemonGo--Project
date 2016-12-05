@@ -27,7 +27,7 @@ class myTimer{
         * description: default constructor for the timer
         * return: default timer
         * precondition: none
-        * postcondition: default Pokemon is constructed
+        * postcondition: default Timer is constructed
         */
         myTimer();
 
@@ -102,7 +102,7 @@ myTimer::myTimer(){
 }
 
 
-//Chooses random Pokemon from list
+//Chooses Time from list
 string myTimer::chooseTime(vector<string>& NumberList){
     string currentIndex;
     ifstream getList("NumberList");
@@ -112,7 +112,7 @@ string myTimer::chooseTime(vector<string>& NumberList){
     return NumberList[getTime()];
 }
 
-//Draws Pokemon (Cuts out white corners)
+//Draws Time (cuts white corners)
 //Partially provided by Dr. Booth
 void myTimer::draw(SDL_Plotter& g){
     erase(g);
@@ -149,7 +149,7 @@ void myTimer::draw(SDL_Plotter& g){
     }
 }
 
-//Spawns a new Pokemon when current Pokemon is caught
+//Holds current time
 void myTimer::currentTime(SDL_Plotter& g){
     numberName = chooseTime(NumberList);
 
@@ -166,7 +166,7 @@ void myTimer::currentTime(SDL_Plotter& g){
     erase(g);
 }
 
-//Erases Pokemon
+//Erases part of the Timer to prevent overlap
 //Provided by Dr. Booth
 void myTimer::erase(SDL_Plotter& g){
     for(int r = 0; r < rows; r++){
