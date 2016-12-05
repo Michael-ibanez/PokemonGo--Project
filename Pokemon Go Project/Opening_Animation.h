@@ -14,13 +14,53 @@ class Opening_Animation{
         int rows, cols;
 
     public:
+         /*
+        * description: default constructor
+        * return: default opening animation
+        * precondition: N/A
+        * postcondition: N/A
+        */
         Opening_Animation();
+    
+         /*
+        * description: getter function
+        * return: location
+        * precondition: location exists within opening animation object
+        * postcondition: location remains unchanged
+        */
         Point getLoc();
+    
+         /*
+        * description: getter function
+        * return: vector
+        * precondition: integers r and c exist
+        * postcondition: color at position r and c remains unchanged
+        */
         int getR(int r, int c);
+    
+         /*
+        * description: getter function
+        * return: vector
+        * precondition: integers r and c exist
+        * postcondition: color at position r and c remains unchanged
+        */
         int getG(int r, int c);
+    
+        /*
+        * description: getter function
+        * return: vector
+        * precondition: integers r and c exist
+        * postcondition: color at position r and c remains unchanged
+        */
         int getB(int r, int c);
+    
+        /*
+        * description: draw function
+        * return: N/A
+        * precondition: plotter function exists
+        * postcondition: plots color at position r and c in the vector
+        */
         void draw(SDL_Plotter&);
-        void erase(SDL_Plotter&);
 };
 
 Point Opening_Animation::getLoc(){
