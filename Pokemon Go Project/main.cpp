@@ -127,7 +127,6 @@ int main(int argc, char ** argv){
             {
                 //Draw at new location
                 game.playSound("Caught_Pokemon.wav");
-                poke.moveToMenu(caughtCount%6);
                 poke.draw(game);
                 game.update();
                 poke.caught(game);
@@ -135,6 +134,7 @@ int main(int argc, char ** argv){
                 pointCount++;
             }
     	}
+          //Sets points && draws points and time
     	pointDisplay.setPoints(pointCount);
     	pointDisplay.currentPoints(game);
     	pointDisplay.draw(game);
@@ -142,7 +142,7 @@ int main(int argc, char ** argv){
     	timeDisplay.draw(game);
     	game.update();
     }
-
+    //Opens closing game screen
     close.draw(game);
     game.quitSound("Caught_Pokemon.wav");
     game.update();
@@ -154,6 +154,7 @@ int main(int argc, char ** argv){
             Sleep(50);
         }
     }while(key != 'Q' && key == 'N');
+    //Quits game and background music
     game.quitSound("Background_3.wav");
     game.getQuit();
 
